@@ -83,7 +83,7 @@ int main(int argc, const char * argv[])
 	
     if ((argc != 2) || ( strtol(argv[1], NULL, 10) <= 0)) 
 	{
-   		printf("\nUsage: %s n, where n is a positive interger\n",argv[0]);
+   		printf("\nUsage: %s n, where n is a positive integer\n",argv[0]);
         return 1;
     }
 	else
